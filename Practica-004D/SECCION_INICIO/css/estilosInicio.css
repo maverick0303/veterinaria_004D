@@ -1,0 +1,34 @@
+.centrado{
+    text-align: center;
+    background-color: rgb(163, 255, 255);
+}
+
+.textos{
+    
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.titulos{
+    color: rgb(86, 7, 97);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+img{
+    width: 500px;
+    float: center;
+    margin-bottom: 15xp;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.enlace{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
