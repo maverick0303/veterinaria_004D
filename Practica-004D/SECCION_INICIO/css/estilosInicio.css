@@ -20,12 +20,12 @@
 .titulos{
     color: rgb(86, 7, 97);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 69px;
     font-weight: bolder;
 }
 img{
-    width: 500px;
-    float: center;
+    width: 350px;
+    float: center ;
     margin-bottom: 15xp;
 }
 p{
@@ -34,7 +34,8 @@ p{
 }
 
 .enlace{
-    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
     margin-top: 0px;
     color: white;
 }
