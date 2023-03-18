@@ -2,6 +2,7 @@
     text-align: right;
     margin-top: 0px;
     margin-bottom: 50px;
+    font-size: 35px;
 }
 img{
     width: 350px;
@@ -10,15 +11,16 @@ img{
 }
 p{
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .fondo{
     background-color:rgb(163, 255, 255);
 }
 
 .textos{
-
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    color: cornsilk;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
     font-weight: bolder;
+
 }

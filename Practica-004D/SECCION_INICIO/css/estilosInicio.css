@@ -7,7 +7,7 @@
     
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
 }
 .xd{
@@ -24,18 +24,19 @@
     font-weight: bolder;
 }
 img{
-    width: 350px;
+    width: 400px;
     float: center ;
     margin-bottom: 15xp;
 }
 p{
     margin-top: 0px;
     margin-bottom: 4px;
+    
 }
 
 .enlace{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
+    text-align: center;
     margin-top: 0px;
     color: white;
 }
