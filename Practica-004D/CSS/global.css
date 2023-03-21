@@ -1,0 +1,46 @@
+.body{
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(163, 255, 255);
+}
+
+.navbar{
+    background-color: aqua;
+}
+
+.imagenav{
+    width: 50px;
+    height: 40px;
+}
+
+.titulos{
+    color: rgb(86, 7, 97);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 69px;
+    font-weight: bolder;
+}
+
+.textos{
+    
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img{
+    width: 100%;
+    max-width: 400px;
+    float: right ;
+}
+
+.ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.borde{
+    border-style: groove;  
+    border-radius: 50cm; 
+    border-width: 50px; 
+}
