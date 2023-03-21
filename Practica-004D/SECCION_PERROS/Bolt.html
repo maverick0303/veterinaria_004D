@@ -6,55 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link type="text/css" rel="stylesheet" href="Css/estiloPerro.Css">
+    <link type="text/css" rel="stylesheet" href="/Practica-004D/CSS/global.css">
 
+    <style>
+        .borde {
+            border-radius: 0;
+        }
+
+        p {
+            color: white;
+        }
+    </style>
 </head>
 
-<body class="fondo">
-    <div style="border-style: groove; border-color: aqua; background-color: white;
-    border-radius: 50cm; border-width: 20px; text-align: center;">
-        <a style="color: black; margin-left: 1%;" href="/Practica-004D/SECCION_INICIO/bienvenida.html">Inicio</a>
-        <a style="color: black; margin-left: 1%;" href="/Practica-004D/SECCION_INICIO/contacto.html">Contacto</a>
-        <a style="color: black; margin-left: 1%;" href="/Practica-004D/SECCION_INICIO/nosotros.html">Nosotros</a>
-        <a style="color: black; margin-left: 1%;" href="/Practica-004D/SECCION_INICIO/perros.html">Perros</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_PERROS/Bolt.html">(Bolt)</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_PERROS/Cachupin.html">(Cachupin)</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_PERROS/Chispita.html">(Chispita)</a>
-        <a style="color: black; margin-left: 1%;" href="/Practica-004D/SECCION_INICIO/gatos.html">Gatos</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_GATOS/Ami.html">(Ami)</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_GATOS/Garfierld.html">(Garfierld)</a>
-        <a style="color: black; margin-left: 0%;" href="/Practica-004D/SECCION_GATOS/Leon.html">(Leon)</a>
-    </div>
-    
-    <a class="links" href="/Practica-004D/SECCION_INICIO/perros.html">Ir hacia atras</a>
-    <br>
-    <div style="border-style: groove; border-color: purple; background-color: blueviolet; 
-     border-width: 50px; margin: 90px;">
-        <table width="100%">
-            <td>
-                <tr><img src="perrosIMG/Bolt.jpg" alt="este es Bolt"></tr>
-                <tr>
-                    <p class="textos">Nombre: Bolt
-                        <br>
-                        Raza: Pastor Blanco
-                        <br>
-                        Edad: 1 año
-                        <br>
-                        Genero: Macho
-                        <br>
-                        Habilidad: Es Veloz
-                        <br>
-                        Historial Medico: Vacunas al dia
-                        <br>
-                        Dato curioso: Decirle Zoom Zoom para activar sus habilidades
-                    </p>
-                </tr>
-            </td>
-    
-    </table>
-</div>
+<body class="body">
+    <div class="container">
+        <div class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="imagenav" src="https://media.tenor.com/SDwGg31pp4AAAAAC/maxwell-the-cat-maxwell.gif" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Practica-004D/SECCION_INICIO/bienvenida.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Practica-004D/SECCION_INICIO/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Practica-004D/SECCION_INICIO/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Perros
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_INICIO/perros.html">Perros</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_PERROS/Bolt.html">Bolt</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_PERROS/Cachupin.html">Cachupin</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_PERROS/Chispita.html">Chispita</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Gatos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_INICIO/gatos.html">Gatos</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_GATOS/Ami.html">Ami</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_GATOS/Garfierld.html">Garfierld</a>
+                            <a class="dropdown-item" href="/Practica-004D/SECCION_GATOS/Leon.html">Leon</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <a class="textos" href="/Practica-004D/SECCION_INICIO/perros.html">Ir hacia atras</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md"></div>
+            <div class="col-md-auto center-text borde" style="border-color: purple; background-color: blueviolet;">
+                <img class="img" src="perrosIMG/Bolt.png" alt="imagen no disponible">
+
+                <p style="text-align: left;" class="textos">Nombre: Bolt <br>
+                    Raza: Pastor Blanco <br>
+                    Edad: 1 año <br>
+                    Genero: Macho <br>
+                    Habilidad: Es Veloz <br>
+                    Historial Medico: Vacunas al dia <br>
+                    Dato curioso: Decirle Zoom Zoom para activar sus habilidades
+                </p>
+
+            </div>
+            <div class="col-md"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
