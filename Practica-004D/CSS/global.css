@@ -1,11 +1,11 @@
 .body{
     margin-top: 80px;
     text-align: center;
-    background-color: rgb(163, 255, 255);
+    background-color: rgb(43, 189, 189);
 }
 
 .navbar{
-    background-color: aqua;
+    background-color: rgb(0, 132, 255);
 }
 
 .imagenav{
@@ -14,7 +14,7 @@
 }
 
 .titulos{
-    color: rgb(86, 7, 97);
+    color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 69px;
     font-weight: bolder;
